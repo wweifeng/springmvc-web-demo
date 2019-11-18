@@ -27,7 +27,6 @@ public class DispatcherServlet extends FrameworkServlet {
 	public DispatcherServlet () {
 		handlerAdapters = new ArrayList<HandlerAdapter>();
 		handlerMappings = new ArrayList<HandlerMapping>();
-		
 	}
 	
 	@Override
